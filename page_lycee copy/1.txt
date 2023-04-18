@@ -1,2 +1,0 @@
-Chivo Mono  text    https://fonts.google.com/specimen/Chivo+Mono/tester     font-family: 'Chivo Mono', monospace;
-Raleway     heading https://fonts.google.com/specimen/Raleway/tester        font-family: 'Raleway', sans-serif;
