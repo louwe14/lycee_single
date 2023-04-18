@@ -1,0 +1,57 @@
+#phone_menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 0px;
+    height: 0px;
+}
+#phone_menu_background {
+    position: fixed; 
+    top: 20px;
+    right: calc( 10% + 40px);
+    width: 0;
+    height: 0;
+    background-color: white;
+    border-radius: 100%;
+    transform: translate(50%, -50%);
+}
+#phone_menu_container {
+    width: 80vw;
+    height: 76vh;
+    position: fixed;
+    left: 10%;
+    top: 12vh;
+    display: none;
+}
+.main_thema {
+    font-style: 'raleway';
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+    color:black;
+    text-transform: uppercase;
+    opacity: 0;
+    margin-left: 20px;
+}
+.children {
+    font-style: 'raleway';
+    font-size: 20px;
+    font-weight: 300;
+    color: #0F4E81;
+    text-transform: uppercase;
+    opacity: 0;
+    margin-left: 20px;
+}
+.children_container {
+    margin-left: 20px;
+    height: 0;
+    display: none;
+}
+.children_a, .children_a:focus {
+    text-decoration: none;
+    color: #0F4E81;
+}
+.thema_a, .thema_a:focus {
+    text-decoration: none;
+    color: black;
+}

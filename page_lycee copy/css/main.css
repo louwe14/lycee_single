@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body, html {
+    margin:0;
+    padding:0;
+    overflow:overlay;
+    overflow-x:hidden;
+  }
+  body {
+    background-color:#f3f3f3;
+  }
+  /* width */
+  ::-webkit-scrollbar {
+      width: 9px;
+  }
+    /* Track */
+  ::-webkit-scrollbar-track {
+      background: transparent;
+  }
+    /* Handle */
+  ::-webkit-scrollbar-thumb {
+      background: rgba(0,0,0,0.5);
+      border-radius: 15px;
+  }
+    /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+      background: rgba(0,0,0,0.7);
+  }
+  #invisible-js {
+      visibility:hidden;
+  }
+::selection {
+  background: rgba(173,217,230,255);
+}
+#image-fond {
+  width:100vw;
+  height:100vh;
+  object-fit:cover;
+}
+#lycee-title {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  width:100vw;
+  height:100vh;
+  background-color:rgba(0,0,0,0.35);
+  position:absolute;
+  top:0;
+  z-index: 0;
+}
+#lycee-title-text {
+  margin-top:5%;
+  color:white;
+  font-size:70px;
+  text-transform:uppercase;
+  font-family:'Raleway', sans-serif;
+}
+#citation {
+  background-color:white; 
+  width:100vw; 
+  height:80px; 
+  display:flex; 
+  flex-direction:row; 
+  justify-content:space-between; 
+  align-items:center
+}
+#citation-text {
+  color:black;
+  font-size:20px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing:1px;
+}
+.citation_spacer {
+  width:5vw;
+  height:10px;
+  background-color:transparent;
+}
+#line_citation_presentation_lycee {
+  width:100vw;
+  height:0.5px;
+  background-color:black;
+}
+#lycee_presentation {
+  width:100vw;
+  height:100vh;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+#presentation_left {
+  width:50%;
+  height:100%;
+  background-color:rgb(255, 255, 255);
+}
+#presentation_right {
+  width:50%;
+  height:100%;
+  background-color:rgb(255, 255, 255);
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content:center;
+}
+#image-container-top {
+  background-color:white;
+  width:40vw;
+  height:20vh;
+  margin-bottom:-15vh;
+  z-index:99;
+}
+#div_img {
+  width:40vw;
+  height:70vh;
+  object-fit:cover;
+  margin-top:15vh;
+  margin-left:5vw;
+}
+.div_text {
+  text-align: justify;
+}
+#image-container-bottom {
+  background-color:white;
+  width:40vw;
+  height:20vh;
+  margin-top:-15vh;
+  z-index:100;
+}
+#presentation_right_title {
+  font-family: 'raleway', sans-serif;
+  text-transform: uppercase;
+  font-size:30px;
+}
+#texte_presentation_right {
+  width:35vw;
+  height:auto;
+  font-size:17px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing:1px;
+  text-align:justify;
+}
+#image_transition {
+  height:70vh;
+  width:100vw;
+  object-fit:cover;
+}
+#specialites_container {
+  background-color:white;
+  width:100vw;
+  height:110vh;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+}
+#container_spe_left {
+  width:50vw;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+#spe_title {
+  font-family: 'raleway', sans-serif;
+  text-transform: uppercase;
+  font-size:30px;
+}
+#spe_texte {
+  width:35vw;
+  height:auto;
+  font-size:17px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing:1px;
+  text-align:justify;
+}
+#container_spe_right {
+  width:50vw;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-between;
+}
+#img_spe {
+  height:70vh;
+  width:40vw;
+  object-fit:cover;
+}
+#les_chiffres_cles_1 {
+  width:100vw;
+  height:40vh;
+  background-color:rgb(138, 138, 138);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+#bac_resu_titre {
+  font-family: 'raleway', sans-serif;
+  text-transform: uppercase;
+  font-size:30px;
+}
+table tr td {
+  border: 0.5px solid white;
+  border-collapse:collapse;
+  text-align: center;
+}
+#table_1 {
+  width: 60vw;
+}
+#table_2 {
+  width: 90vw;
+}
+#les_chiffres_cles_2 {
+  display:none;
+}
+#bac_resu_titre_2 {
+  display: none;
+}
+.space {
+  width: 30px;
+  height: 30px;
+}
+#temoignage_title {
+  font-family: 'raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  position: relative;
+  margin-top: 10vh;
+  left: 7%;
+}
+#temoignage {
+  height: 60vh;
+  width: 100vw;
+  background-color:white;
+}
+#temoignage-container {
+  height: 100%;
+  width: 90%;
+  position: relative;
+  left: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.section-temoignage {
+  width: 30%;
+  height: 80%;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.text-temoignage {
+  position: relative;
+  width: 90%;
+  height: auto;
+  font-size: 16px;
+  text-align: justify;
+}
+
+@media(max-width:900px) {
+  .text-temoignage {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  #temoignage {
+    height: 70vh;
+    width: 100vw;
+    background-color:white;
+  }
+  #temoignage-container {
+    height: 90%;
+    width: 100%;
+    position: relative;
+    top: 5%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+  }
+  .section-temoignage {
+    width: 80%;
+    height: 40%;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: transparent;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+  }
+  .section-temoignage:last-child {
+    display: none;
+  }
+  .text-temoignage {
+    position: relative;
+    width: 90%;
+    height: auto;
+    font-size: 13px;
+  }
+  #temoignage_title {
+    left: 10%;
+  }
+  #citation-text {
+    font-size:16px;
+  }
+  #menu-laptop {
+    display:none;
+  }
+  #Titre {
+    left:10%;
+  }
+  #ham-menu {
+    right:10%;
+  }
+  #text_presentation_right {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #presentation_right_title {
+    font-size:25px; 
+  }
+  #lycee_presentation {
+    flex-direction:column;
+    height:500vh;
+  }
+  #presentation_left {
+    width: 100%;
+    height: 50vh;
+  }
+  #presentation_right {
+    width: 100%;
+  }
+  #div_img {
+    width: 80vw;
+    height:100%;
+    margin-left: 10vw;
+    margin-top: 5vh;
+  }
+  #spacer {
+    display: none;
+  }
+  #spacer2 {
+    display: none;
+  }
+  .div_text {
+    width: 100%;
+  }
+  #texte_presentation_right {
+    width: 100%;
+  }
+  #presentation_right_container {
+    width: 80%;
+  }
+  #specialites_container {
+    display: flex;
+    flex-direction: column;
+  }
+  #container_spe_left {
+    width:100%;
+  }
+  #container_left_spe_texte {
+    width:80%;
+  }
+  #spe_texte {
+    width:100%;
+  }
+  #container_spe_right {
+    width: 100vw;
+    height: 50vw;
+  }
+  #img_spe {
+    width: 80vw;
+    height: 40vh;
+  }
+  .space-1 {
+    display:block;
+    height: 30px;
+  }
+  #les_chiffres_cles_1 {
+    display: none;
+  }
+  #bac_resu_titre {
+    display: none;
+  }
+  #les_chiffres_cles_2 {
+    width:100vw;
+    height:40vh;
+    background-color:rgb(138, 138, 138);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  #bac_resu_titre_2 {
+    font-family: 'raleway', sans-serif;
+    text-transform: uppercase;
+    font-size:20px;
+    display: block;
+  }
+  
+}
